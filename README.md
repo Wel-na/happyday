@@ -890,6 +890,16 @@ git pull
 > → `git pull` équivaut à : `git fetch` + `git merge`  
 > → Plus rapide, mais moins de contrôle.
 
+specify which branch you want to merge with.
+```bash
+    git pull <remote> <branch>
+```
+
+If you wish to set tracking information for this branch you can do so with:
+```bash
+    git branch --set-upstream-to=origin/<branch> 
+```
+
 ### Vérifier les branches (locales + distantes)
 ```bash
 git branch -a
