@@ -216,6 +216,8 @@ Lister les branches de ton dépôt Git :
 
 ```bash
 git branch
+# ou lister la branche actuel
+git branch --show-current
 ```
 > Détails rapides :  
 > * affiche toutes les branches locales  
